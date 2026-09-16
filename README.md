@@ -6,6 +6,9 @@ Soproni Egyetem – Gazdaságinformatikus (GAIN-IT) képzés anyagai: tantárgya
 
 ```
 SOE_GAIN_IT/
+├── AI_ML/                          Mesterséges intelligencia / gépi tanulás
+│   └── README.md                       Link a projektfájlokhoz (külső tárhelyen)
+│
 ├── ALGORITHMS/                     Algoritmusok és adatszerkezetek
 │   └── Introduction_to_Algorithms_Third_Edition_(2009).pdf   Ajánlott szakirodalom (CLRS)
 │
@@ -40,6 +43,7 @@ SOE_GAIN_IT/
 
 ## Tartalom
 
+- **AI_ML**: mesterséges intelligencia / gépi tanulás tárgy anyagai — a nagy méretű projektfájlok külső tárhelyen, a mappa README-jében linkelve érhetők el.
 - **ALGORITHMS**: algoritmusok tárgyhoz kapcsolódó szakirodalom.
 - **NETWORKS**: hálózatok tárgy előadásai és kiegészítő segédeszközei (CRC, konvolúciós kódolás).
 - **OS_AND_COMPUTER_ARCHITECTURE**: architektúrák (ARCH) és operációs rendszerek (OPRE) előadásanyagai, tematikái, számítási segédletei.
