@@ -1,0 +1,3 @@
+Monthly report.
+
+The report file is useful for testing name substring filtering.

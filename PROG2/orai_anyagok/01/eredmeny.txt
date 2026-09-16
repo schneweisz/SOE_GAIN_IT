@@ -1,0 +1,33 @@
+============================================================
+TALÁLATOK
+============================================================
+README.md | .md | 194 B
+archive/backup.log | .log | 63 B
+scripts/helper.py | .py | 46 B
+images/logo.png | .png | 90 B
+scripts/main.py | .py | 54 B
+documents/notes.txt | .txt | 101 B
+archive/old_report.txt | .txt | 72 B
+documents/report_2026.txt | .txt | 81 B
+data/scores.csv | .csv | 45 B
+data/students.csv | .csv | 43 B
+documents/todo.md | .md | 90 B
+
+============================================================
+STATISZTIKA
+============================================================
+Összes fájl száma: 11
+Találatok száma: 11
+Összes fájl mérete: 879 B
+Találatok összesített mérete: 879 B
+Legnagyobb találat: README.md (194 B)
+
+============================================================
+KITERJESZTÉSENKÉNTI DARABSZÁM
+============================================================
+.csv: 2 db
+.log: 1 db
+.md: 2 db
+.png: 1 db
+.py: 2 db
+.txt: 3 db

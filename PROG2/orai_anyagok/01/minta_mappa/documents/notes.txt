@@ -1,0 +1,7 @@
+First lesson notes.
+
+Topics:
+- os module
+- current working directory
+- absolute path
+- relative path
