@@ -1,6 +1,6 @@
 # SOE_GAIN_IT
 
-Soproni Egyetem – Gazdaságinformatikus (GAIN-IT) képzés anyagai: tantárgyanként rendszerezett előadás- és gyakorlati anyagok, házi feladatok, zh megoldások és segítő anyagok.
+Soproni Egyetem – Gazdaságinformatikus képzés IT anyagai: tantárgyanként rendszerezett előadás- és gyakorlati anyagok, házi feladatok, zh megoldások és segítő anyagok.
 
 ## Felépítés
 
