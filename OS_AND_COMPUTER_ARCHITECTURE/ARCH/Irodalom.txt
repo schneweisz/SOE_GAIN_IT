@@ -1,0 +1,7 @@
+Kötelező irodalom:
+Szűcs László: A számítógépek felépítése - Lexika kiadó 2003.
+Andrew S. Tanenbaum: Operációs rendszerek - Panem Kft. 2007.
+
+Ajánlott irodalom:
+Andrew S. Tanenbaum: Számítógép-architektúrák - Panem Kft. 2001.
+Kóczy A., Kondorosi K.: Operációs rendszerek mérnöki megközelítésben - Panem Kft. 2000.
