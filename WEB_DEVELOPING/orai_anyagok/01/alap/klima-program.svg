@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Városi klímaadaptációs program</title>
+  <desc id="desc">Városi térkép zöldfelületekkel, hőmérsékleti adatokkal és közösségi szolgáltatásokkal.</desc>
+  <rect width="900" height="520" fill="#eef4f2"/>
+  <rect x="84" y="64" width="732" height="392" rx="18" fill="#ffffff" stroke="#18343a" stroke-width="6"/>
+  <rect x="84" y="64" width="732" height="76" rx="18" fill="#18343a"/>
+  <text x="126" y="112" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Városi klímaadatok</text>
+  <rect x="126" y="176" width="176" height="210" rx="10" fill="#dfe9e7" stroke="#9db8b4"/>
+  <rect x="338" y="176" width="176" height="210" rx="10" fill="#dfe9e7" stroke="#9db8b4"/>
+  <rect x="550" y="176" width="176" height="210" rx="10" fill="#dfe9e7" stroke="#9db8b4"/>
+  <path d="M150 338c34-72 70-72 104 0" fill="none" stroke="#2f7d5c" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="202" cy="258" r="48" fill="#5ba678"/>
+  <rect x="376" y="226" width="98" height="122" rx="8" fill="#ffffff" stroke="#9db8b4"/>
+  <line x1="394" y1="254" x2="456" y2="254" stroke="#c9a227" stroke-width="10" stroke-linecap="round"/>
+  <line x1="394" y1="288" x2="456" y2="288" stroke="#5ba678" stroke-width="10" stroke-linecap="round"/>
+  <line x1="394" y1="322" x2="456" y2="322" stroke="#d36c45" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="608" cy="238" r="34" fill="#d36c45"/>
+  <line x1="608" y1="190" x2="608" y2="160" stroke="#d36c45" stroke-width="8" stroke-linecap="round"/>
+  <line x1="608" y1="316" x2="608" y2="356" stroke="#2f7d5c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M586 344c28-32 58-32 86 0" fill="none" stroke="#2f7d5c" stroke-width="10" stroke-linecap="round"/>
+  <rect x="126" y="414" width="600" height="14" rx="7" fill="#9db8b4"/>
+  <rect x="126" y="414" width="382" height="14" rx="7" fill="#c9a227"/>
+</svg>

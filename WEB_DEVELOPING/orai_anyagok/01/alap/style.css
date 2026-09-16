@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #263238;
+  background: #f5f7fa;
+}
+
+header,
+footer {
+  background: #23424a;
+  color: #ffffff;
+  padding: 24px;
+}
+
+header h1,
+header p,
+footer p {
+  margin: 0;
+}
+
+header p {
+  margin-top: 8px;
+}
+
+nav {
+  background: #e3f2f1;
+  border-bottom: 1px solid #bfd7d4;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  padding: 14px 24px;
+  list-style: none;
+}
+
+nav a {
+  color: #17484f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 28px 20px;
+}
+
+section,
+aside {
+  margin-bottom: 24px;
+  padding: 20px;
+  border-bottom: 1px solid #dce5e8;
+}
+
+article {
+  margin: 18px 0;
+  padding: 16px 18px;
+  background: #ffffff;
+  border-left: 5px solid #f7c948;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #17484f;
+}
+
+h3 {
+  color: #2e5f67;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #dce5e8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: #ffffff;
+}
+
+caption {
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #cfd8dc;
+  text-align: left;
+}
+
+th {
+  background: #e3f2f1;
+}
+
+form {
+  display: grid;
+  gap: 14px;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #b0bec5;
+  border-radius: 6px;
+}
+
+fieldset {
+  padding: 14px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: 700;
+}
+
+.inline-choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+}
+
+.inline-choice input {
+  width: auto;
+}
+
+button {
+  width: auto;
+  justify-self: start;
+  color: #ffffff;
+  background: #2e5f67;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #17484f;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  header,
+  footer {
+    padding: 20px;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    margin-bottom: 8px;
+  }
+}

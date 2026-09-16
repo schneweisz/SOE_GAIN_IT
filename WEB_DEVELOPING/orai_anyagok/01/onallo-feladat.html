@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Önálló HTML feladat - Energiahatékonysági tanácsadás</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lakossági energiahatékonysági tanácsadás</h1>
+    <p>Szemantikusan felépített tájékoztató oldal szolgáltatási adatokkal és jelentkezési űrlappal.</p>
+  </header>
+
+  <nav aria-label="Oldalon belüli navigáció">
+    <ul>
+      <li><a href="#szolgaltatas">Szolgáltatás</a></li>
+      <li><a href="#feltetelek">Feltételek</a></li>
+      <li><a href="#jelentkezes">Időpontkérés</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="szolgaltatas">
+      <h2>Szolgáltatás</h2>
+      <p>
+        A tanácsadás célja, hogy a háztartások átlátható képet kapjanak
+        energiafogyasztásukról, a korszerűsítési lehetőségekről és a várható
+        megtakarításokról. A konzultáció előzetes időpontkérés alapján történik.
+      </p>
+
+      <table>
+        <caption>Tanácsadási témakörök</caption>
+        <thead>
+          <tr>
+            <th scope="col">Témakör</th>
+            <th scope="col">Tartalom</th>
+            <th scope="col">Ajánlott időtartam</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fogyasztási áttekintés</td>
+            <td>Számlák, mérőóra-adatok és szokások elemzése</td>
+            <td>30 perc</td>
+          </tr>
+          <tr>
+            <td>Épületkorszerűsítés</td>
+            <td>Szigetelés, nyílászárók, fűtési rendszer vizsgálata</td>
+            <td>45 perc</td>
+          </tr>
+          <tr>
+            <td>Megújuló energia</td>
+            <td>Napelemes és hőszivattyús lehetőségek előzetes értékelése</td>
+            <td>45 perc</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="feltetelek">
+      <h2>Feltételek és előkészületek</h2>
+      <article>
+        <h3>Kinek ajánlott?</h3>
+        <p>
+          A szolgáltatás családi házban, társasházi lakásban vagy kisebb
+          vállalkozási ingatlanban élőknek szól, akik szeretnék csökkenteni
+          energiafelhasználásukat és tervezhetőbbé tenni kiadásaikat.
+        </p>
+      </article>
+
+      <article>
+        <h3>Szükséges adatok</h3>
+        <ul>
+          <li>Az utolsó 12 hónap villany- és gázszámlái.</li>
+          <li>Az ingatlan alapterülete és építési éve.</li>
+          <li>A fűtési rendszer típusa és becsült életkora.</li>
+          <li>Korábbi energetikai korszerűsítések rövid leírása.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="jelentkezes">
+      <h2>Időpontkérő űrlap</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="nev">Kapcsolattartó neve</label>
+          <input type="text" id="nev" name="nev" placeholder="Vezetéknév Keresztnév" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail-cím</label>
+          <input type="email" id="email" name="email" placeholder="nev@example.com" required>
+        </div>
+
+        <div>
+          <label for="ingatlan">Ingatlan típusa</label>
+          <select id="ingatlan" name="ingatlan" required>
+            <option value="">Válassz ingatlantípust</option>
+            <option value="csaladi-haz">Családi ház</option>
+            <option value="tarsashazi-lakas">Társasházi lakás</option>
+            <option value="sorhaz">Sorház</option>
+            <option value="egyeb">Egyéb</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="iranyitoszam">Irányítószám</label>
+          <input type="text" id="iranyitoszam" name="iranyitoszam" inputmode="numeric" pattern="[0-9]{4}" placeholder="1234" required>
+        </div>
+
+        <fieldset>
+          <legend>Elsődleges tanácsadási téma</legend>
+          <label class="inline-choice">
+            <input type="radio" name="tema" value="fogyasztas" required>
+            Fogyasztási áttekintés
+          </label>
+          <label class="inline-choice">
+            <input type="radio" name="tema" value="korszerusites">
+            Épületkorszerűsítés
+          </label>
+          <label class="inline-choice">
+            <input type="radio" name="tema" value="megujulo">
+            Megújuló energia
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Rendelkezésre álló dokumentumok</legend>
+          <label class="inline-choice">
+            <input type="checkbox" name="dokumentumok" value="szamlak">
+            Közüzemi számlák
+          </label>
+          <label class="inline-choice">
+            <input type="checkbox" name="dokumentumok" value="alaprajz">
+            Alaprajz vagy alapterületi adatok
+          </label>
+          <label class="inline-choice">
+            <input type="checkbox" name="dokumentumok" value="energetikai">
+            Korábbi energetikai tanúsítvány
+          </label>
+        </fieldset>
+
+        <div>
+          <label for="uzenet">Rövid leírás</label>
+          <textarea id="uzenet" name="uzenet" rows="4" placeholder="Írd le röviden, milyen kérdésben kérsz segítséget."></textarea>
+        </div>
+
+        <label class="inline-choice">
+          <input type="checkbox" name="adatkezeles" required>
+          Elfogadom az időpontkéréshez szükséges adatkezelést.
+        </label>
+
+        <button type="submit">Időpontkérés elküldése</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lakossági energiahatékonysági tanácsadás - HTML gyakorlat</p>
+  </footer>
+</body>
+</html>
